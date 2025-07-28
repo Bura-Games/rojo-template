@@ -1,0 +1,6 @@
+std = "roblox"
+
+[lints]
+
+[config]
+multiple_statements = { one_line_if = true }
