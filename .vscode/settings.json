@@ -1,0 +1,21 @@
+{
+  "material-icon-theme.folders.associations": {
+    
+  },
+  "material-icon-theme.files.associations": {
+    "init.client.luau": "Rbxmk",
+    "init.server.luau": "Rbxmk",
+    "init.luau": "Rbxmk",
+
+    "Network.luau": "Drawio",
+    "ServerSignals.luau": "Drawio",
+    "ClientSignals.luau": "Drawio"
+  },
+
+  "VsCodeTaskButtons.tasks": [
+    {
+      "label": "Install Dependencies",
+      "task": "Install Dependencies"
+    }
+  ],
+}
