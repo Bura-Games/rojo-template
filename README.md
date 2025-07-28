@@ -6,7 +6,12 @@ A template for starting a new Roblox project using Rojo. This template is design
 
 ### Prerequisites
 
-- Roblox Studio
+#### Roblox
+- [Roblox Studio](https://create.roblox.com/docs/studio/setup)
+
+Install roblox studio from the [Roblox website](https://create.roblox.com/docs/studio/setup). If you're on Linux, install [Vinegar](https://flathub.org/apps/org.vinegarhq.Vinegar).
+
+#### Tools
 - [Wally](https://github.com/UpliftGames/wally) package manager
 - [Wally-Package-Types](https://github.com/JohnnyMorganz/wally-package-types) for fixing Wally's type exporting.
 - [Rojo](https://github.com/rojo-rbx/rojo) for syncing files to Roblox Studio
@@ -34,7 +39,7 @@ We have to use an install script instead of just `wally install` because Wally d
 
 **Installing dependencies this way will crash Rojo**, so make sure to stop Rojo before running it and restart it afterwards.
 
-### Development
+## Development
 
 Once you have installed all the dependencies, the workflow is just like in any other Rojo project:
 1. Run the Rojo server from the menu or with `rojo serve`.
