@@ -4,3 +4,10 @@
 # Roblox Studio lock files
 /*.rbxlx.lock
 /*.rbxl.lock
+
+# Rojo Sourcemap
+/sourcemap.json
+
+# Wally packages
+/Packages
+/ServerPackages

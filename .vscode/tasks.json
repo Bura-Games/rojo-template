@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Install Dependencies",
+            "type": "shell",
+           	"command": "bash",
+                "args": [
+                    "./scripts/install.sh"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Installs dependencies for the project using the appropriate script for your platform."
+        }
+    ]
+}
