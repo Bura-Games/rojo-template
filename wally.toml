@@ -1,7 +1,15 @@
 [package]
-name = "daire/robot-game"
-version = "0.1.0"
+name = "daireb/rojo-template"
+version = "0.0.1"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
-[dependencies]
+[dependencies] # Shared dependencies here
+# Fusion = "elttob/fusion@0.3.0"
+# Janitor = "elttob/janitor@0.2.0"
+# Promise = "howmanysmall/typed-promise@4.0.6"
+# TypedRemote = "sleitnick/typed-remote@0.2.0"
+# Signal = "howmanysmall/better-signal@2.1.0"
+
+[server-dependencies] # Server-only dependencies here
+# Cmdr = "evaera/cmdr@1.12.0"

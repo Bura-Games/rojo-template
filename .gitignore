@@ -5,9 +5,12 @@
 /*.rbxlx.lock
 /*.rbxl.lock
 
-# Rojo Sourcemap
-/sourcemap.json
-
 # Wally packages
 /Packages
 /ServerPackages
+
+# Wally lock file
+/wally.lock
+
+# Rojo Sourcemap
+sourcemap.json

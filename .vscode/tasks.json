@@ -4,10 +4,19 @@
         {
             "label": "Install Dependencies",
             "type": "shell",
-           	"command": "bash",
-                "args": [
-                    "./scripts/install.sh"
+            "command": "bash",
+            "args": [
+                "./scripts/install.sh"
             ],
+            "windows": {
+                "command": "powershell",
+                "args": [
+                    "-ExecutionPolicy",
+                    "Bypass",
+                    "-File",
+                    "./scripts/install.ps1"
+                ]
+            },
             "group": "build",
             "problemMatcher": [],
             "detail": "Installs dependencies for the project using the appropriate script for your platform."
