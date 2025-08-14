@@ -3,13 +3,16 @@ name = "daireb/rojo-template"
 version = "0.0.1"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
+private = true
 
 [dependencies] # Shared dependencies here
-# Fusion = "elttob/fusion@0.3.0"
-# Janitor = "elttob/janitor@0.2.0"
-# Promise = "howmanysmall/typed-promise@4.0.6"
-# TypedRemote = "sleitnick/typed-remote@0.2.0"
-# Signal = "howmanysmall/better-signal@2.1.0"
+#Fusion = "elttob/fusion@0.3.0"
+#Janitor = "howmanysmall/janitor@1.18.3"
+#Promise = "howmanysmall/typed-promise@4.0.6"
+#TypedRemote = "sleitnick/typed-remote@0.3.0"
+#Signal = "howmanysmall/better-signal@2.1.0"
+#TableUtil = "sleitnick/table-util@1.2.1"
 
 [server-dependencies] # Server-only dependencies here
-# Cmdr = "evaera/cmdr@1.12.0"
+#Cmdr = "evaera/cmdr@1.12.0"
+#ProfileStore = "lm-loleris/profilestore@1.0.3"
